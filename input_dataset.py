@@ -442,7 +442,7 @@ def book_keeping():
     # LOAD THE WORKBOOK
     try:
         global book
-        destination_file = "POS_fruit_juice.xlsx"
+        destination_file = "POS-master/POS_fruit_juice.xlsx"
         book = load_workbook(filename=destination_file)
 
         # GRABBING THE ACTIVE SHEET.
